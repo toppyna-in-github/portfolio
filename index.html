@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description content" content="This is a web page about practice of html.First beginner can start from here."/>
+  <meta name="keywords" content="programming, html, beginner"/>
+  <meta http-equiv="author" content="Haruka Toyoura"/>
+  <meta http-equiv="content-language" content="ja-ja"/>
+  <title>作品１</title>
+</head>
+
+
+<body>
+
+  <div>
+        <h1>簡易版ファンサイト</h1>
+        ♡&nbsp♡&nbsp♡&nbsp♡&nbsp♡&nbsp♡&nbsp♡&nbsp♡&nbsp♡&nbsp♡♡&nbsp♡&nbsp♡&nbsp♡<br>
+        <!--'&nbsp' makes small blank between text and text.-->
+        <!--characters such as '&nbsp' called escaped characters.(video21, here is the link. https://pastebin.com/XnSyPkEM)-->
+        <p>※こちらは制作者の自己満作品です。ファンサイトは架空の物であり、実際の団体とは一切関係ありませんのでご注意ください。</p>
+        <p>※画像・音声・動画は著作権の範囲内で使用しています。</p>
+        <p>お借りしたデータ元</p>
+        <ul>
+          <li>画像： <a href="https://strawberryprince.com/">すとぷり公式HP </a>、<a href="https://stpr-official.com/">いちごのおうじ商店</a></li>
+          <li>音声： <a href="https://soundeffect-lab.info/">効果音ラボ</a></li>
+          <li>動画： <a href="https://www.videvo.net/">videvo</a></li>
+
+      </ul>
+
+  </div>
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+
+  <div>  
+
+        <p><h2>♡目次♡</p>
+        <ol>
+            <li> <a href="#cd">CD </a></li>
+            <li> <a href="#dvd">DVD </a></li>
+            <li> <a href="#fanclub">ファンクラブ申込書 </h2></a></li>
+
+        </ol>
+
+        <!--'ul'=unordered list, 'ol'=ordered list-->
+
+  </div>  
+
+
+  <div> 
+            
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+
+            <p> <a name = "cd"><h2>♡最近発売されたCD♡</h2></a></p>
+            <br>
+            <p><h3>アスター</h3></p>
+            <p>ころんくんの待望の1<sup>st</sup>フルアルバム！！</p>
+            <br>
+            <p><img src = "aster.jpg" title="aster" alt="『アスター』の画像"width="500" height="500"></p>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+
+            <p> <h2><a name = "dvd">♡最近発売されたDVD♡</h2></a></p>
+            <br>
+            <p><h3>アスター</h3></p>
+            <p>初回限定盤！！</p>
+            <br>
+            <p><img src = "aster-dvd.jpg" title="aster.dvd" alt="『アスター初回限定DVD盤』の画像"width="500" height="500"></p>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+
+
+            <p> <a name = "fanclub"><h2>♡ファンクラブ申込書♡</h2></a></p>
+
+            <!--'a href= #XXX'is 内部リンク of 'a name= XXX' (videp7)-->
+
+      
+  </div>  
+
+  <table>
+            <br>
+            <p>ファンクラブ会員プラン</p>
+            <tr>
+              <th>  すとぷりしか勝たんプラン  </th>
+              <th>  推ししか勝たんプラン   </th>
+              <th>  すとぷりをもっと知りたいプラン  </th>
+            </tr>
+
+            <tr>
+              <td>  パイナッポー </td>
+              <td>  マスカット   </td>
+              <td>  グレープフルーツ  </td>
+            </tr>
+
+            <tr>
+              <td>  オレンジ </td>
+              <td>  ラズベリー   </td>
+              <td>  ストロベリー！！  </td>
+            </tr>
+
+            <!--'td'(data) seems to come to under the 'th'(column). ex/ Earth and Pluto go under The Planets.(video 04)-->
+
+  </table>
+
+            <br><br>
+            <br><br>
+            <br><br>
+ 
+  <div>
+
+    <fieldset>
+      <legend>生年月日・性別・年齢・名前を入力してね！</legend>
+      生年月日：<input type = "date" name="day">
+      <br><br>
+      性別:
+            <br><br>
+            男性
+            <input type="radio" name="yesorno" value=""><br>
+            女性
+            <input type="radio" name="yesorno" value=""><br><br>
+            <!--name tags have to be the same because these are considered as one question.-->
+
+      年齢: <input type="number" min="10" max="100">
+      <br><br>
+      名前: <input type="text">
+      </fieldset>
+      <!--video18-->
+
+  </div>
+
+            <br>
+            <br>
+            <br>
+            <br>
+
+
+  <div>
+
+        <form action ="" method="">   
+          
+            <p>確認のためにもう一度名前を教えてね！</p>         
+            <!--input elements go inside form tag-->
+            <label for = "lastname">姓:</label>
+            <input type = "text" id="firstname"name="" size=20>
+            <br><br>
+            <label for = "firstname">名:</label>
+            <input type = "text" id="lastname" name="" size=20>
+            
+            <!--form tag makes controlable element on Webpage -->
+            <!--About 'action' 'method' 'name', I will learn at JavaScript lesson precisely.-->
+            <!--by putting 'id' in input tag, JavaScript can recognize the 'text' as a box to write about firstname or lastname. (video 11)-->   
+            
+            <br>
+            <br>
+            <br>
+            <br>
+
+            あなたの推しは？
+            <br><br>
+            <select>
+              <option value="rinu">莉犬くん</option>
+              <option value="root">るぅとくん</option>
+              <option value="colon">ころんくん</option>
+              <option value="satomi">さとみくん</option>
+              <option value="jel">ジェルくん</option>
+              <option value="nanamori">ななもりくん</option>
+              <option value="stpr">箱推し！！</option>
+            </select>
+            <!--requires "select" tag because we need to choose one option.? (video17)-->
+
+            <br>
+            <br>
+            <br>
+            <br>
+
+            <p>規約をよくお読みのうえ、下記全てにチェックを入れてください。</p>
+
+            <div>
+
+              <iframe frameborder="1" width="200" height="200" src="first.html" name="ouriframe" id="ouriframe"></iframe>
+              <!--iframe tag embeds other files' information.(in here, first.html and second.html.)(video 23)--> <br><br>
+            
+            <a href="second.html" target="ouriframe">利用規約詳細はこちら</a>
+            
+            </div>
+            <br>
+            
+            <div>
+
+            <input type="checkbox" name="" checked="checked"> このようにチェックをいれてください。 </br>
+            <input type="checkbox" name=""> 利用規約に<b>同意</b>します。 </br>
+            <input type="checkbox" name=""> 利用規約詳細に<strong>同意</strong>します。 </br>
+            <input type="checkbox" name=""> I <i>agree</i> with the terms of use. </br>
+            <input type="checkbox" name=""> I <em>agree</em> with the detail of terms of use. </br>
+            
+            <!--checked makes the checkbox automatically checked.-->
+            
+            </div>
+
+            <br><br>
+            <br><br>
+
+            <div>
+            
+            自由にコメントしてね！<br>
+            <textarea rows="10" cols="100"></textarea><br><br><br><br>
+            <input type="submit" value="お申込内容を確認する">
+            <!--'cols'=columns-->
+            <!--input type="submit" makes submit botton.-->   
+            
+            </div>
+            
+        </form>
+        
+         
+
+  </div>
+
+  <br><br>
+  <br><br>
+  <br><br>
+  <br><br> 
+      
+
+  <div>
+  
+    <p>制作日：2021年1月31日(たまに雪が降る、まだまだ寒い季節。)</p>
+
+
+    <video width="640" height="360" controls  name="snow">
+      <source src="snow.mp4"/>
+    <!--Standard video formats for web browsers are .mp4, webm and .ogg-->
+      
+    </video>
+  
+  </div>
+
+  <div>
+    <audio controls autoplay loop draggable="true">
+      <source src="ginglebell.mp3"/>
+    </audio>
+    <!--Three standard formats for web browsers are .mp3- .wav and .ogg-->
+    <!--autoplay tag did not work on Chrome, but did on edge.-->
+  </div>
+  
+
+  
+</body>
+</html>
+
